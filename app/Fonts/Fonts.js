@@ -25,7 +25,7 @@ module.exports = React.createClass({
   loadFontData: function() {
     // var url = 'https://www.googleapis.com/webfonts/v1/webfonts?';
     // var key = 'key=AIzaSyDrwscy04xGYMeRyeWOnxXilRnyCafwqHA';
-    // var sort = this.props.settings.sort;
+    var sort = this.props.settings.sort;
     // var opt = 'sort=' + sort + '&';
     // var req = url + opt + key;
     var req = 'https://tools.wmflabs.org/fontcdn/cached/webfonts-sort-' + sort;
