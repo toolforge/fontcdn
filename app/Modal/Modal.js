@@ -67,7 +67,7 @@ module.exports = React.createClass({
     var that = this;
     var font = this.props.font;
     var family = font.family.replace(/ /g, '+');
-    var url = 'https://fonts.googleapis.com/css?family=' + family;
+    var url = 'https://tools-static.wmflabs.org/fontcdn/css?family=' + family;
     var category = font.category;
     var stars = this.props.stars;
     var starred = stars.includes(font.family) ? 'fa star fa-star' : 'fa star fa-star-o';

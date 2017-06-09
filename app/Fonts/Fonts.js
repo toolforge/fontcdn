@@ -23,11 +23,12 @@ module.exports = React.createClass({
     this.loadFontData();
   },
   loadFontData: function() {
-    var url = 'https://www.googleapis.com/webfonts/v1/webfonts?';
-    var key = 'key=AIzaSyDrwscy04xGYMeRyeWOnxXilRnyCafwqHA';
-    var sort = this.props.settings.sort;
-    var opt = 'sort=' + sort + '&';
-    var req = url + opt + key;
+    // var url = 'https://www.googleapis.com/webfonts/v1/webfonts?';
+    // var key = 'key=AIzaSyDrwscy04xGYMeRyeWOnxXilRnyCafwqHA';
+    // var sort = this.props.settings.sort;
+    // var opt = 'sort=' + sort + '&';
+    // var req = url + opt + key;
+    var req = 'https://tools.wmflabs.org/fontcdn/cached/webfonts-sort-' + sort;
 
     $.ajax({
       url: req,
@@ -50,6 +51,7 @@ module.exports = React.createClass({
         WebFont.load({
           classes: false,
           google: {
+            api: 'https://tools-static.wmflabs.org/fontcdn/css',
             families: fonts,
             text: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
           },
