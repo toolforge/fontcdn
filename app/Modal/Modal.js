@@ -50,7 +50,7 @@ module.exports = React.createClass({
     var that = this;
     var font = this.props.font;
     var family = font.family.replace(/ /g, '+');
-    var url = 'https://fonts.googleapis.com/css?family=' + family;
+    var url = 'https://tools-static.wmflabs.org/fontcdn/css?family=' + family;
     var category = font.category;
 
     if (category == 'display' || category == 'handwriting') {
