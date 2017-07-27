@@ -1,15 +1,6 @@
-
-![FontCDN screenshot](https://cloud.githubusercontent.com/assets/900407/9017881/beaa33fc-37a7-11e5-978f-96520b10bce8.png)
-
 FontCDN
 =======
 
-FontCDN is a search tool for [Google Fonts](https://www.google.com/fonts). Check it out at [fontcdn.org](http://fontcdn.org).
+FontCDN is originally a search tool by [Thomas Park](http://github.com/thomaspark) for [Google Fonts](https://www.google.com/fonts) at [fontcdn.org](http://fontcdn.org) upstream.
 
-## Author
-
-Thomas Park
-
-* [GitHub](http://github.com/thomaspark)
-* [Twitter](http://twitter.com/thomashpark)
-* [Homepage](http://thomaspark.co)
+This tool, downstream, is a tool not just to provide the search, but to make the font loading [Wikimedia Privacy Policy](https://wikimediafoundation.org/wiki/Privacy_policy) friendly. The URLs provided in the tool / used by the tool shall be to an toolforge internal reverse proxy to Google fonts hosts (see [T110027](https://phabricator.wikimedia.org/T110027)).
