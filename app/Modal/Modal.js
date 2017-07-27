@@ -118,7 +118,7 @@ module.exports = React.createClass({
 
     return (
       <div className="modal" onClick={this.fade} >
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" href="https://tools-static.wmflabs.org/fontcdn/css?family=Open+Sans" />
         <div className="modal-inner">
           <h1 style={title}><a target="_blank" href={google}>{font.family}</a></h1>
           <div>
