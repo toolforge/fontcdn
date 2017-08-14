@@ -7,7 +7,7 @@ module.exports = React.createClass({
     return (
       <div className="about">
         <p>
-          <a href="http://github.com/toollabs/fontcdn/">
+          <a href="http://github.com/toolforge/fontcdn/">
             <i className="fa fa-github"></i>
           </a>
         </p>
