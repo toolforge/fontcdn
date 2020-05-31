@@ -28,7 +28,7 @@ module.exports = React.createClass({
     var sort = this.props.settings.sort;
     // var opt = 'sort=' + sort + '&';
     // var req = url + opt + key;
-    var req = 'https://tools.wmflabs.org/fontcdn/cached/webfonts-sort-' + sort;
+    var req = 'https://fontcdn.toolforge.org/cached/webfonts-sort-' + sort;
 
     $.ajax({
       url: req,

@@ -4,7 +4,8 @@
   "description": "",
   "main": "app/main.js",
   "scripts": {
-    "watch": "webpack --progress --colors --watch --optimize-minimize"
+    "watch": "webpack --progress --colors --watch --optimize-minimize",
+    "build": "webpack --progress --colors --optimize-minimize"
   },
   "repository": {
     "type": "git",
