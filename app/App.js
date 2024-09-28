@@ -39,6 +39,7 @@ module.exports = React.createClass({
     WebFont.load({
       classes: false,
       google: {
+        api: 'https://tools-static.wmflabs.org/fontcdn/css',
         families: fonts,
         text: 'acdedghilmnortuxBEILMNSTU0123456789-'
       },
